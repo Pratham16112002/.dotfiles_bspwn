@@ -1,0 +1,3 @@
+sudo rm /var/lib/pacman/db.lck
+
+When unlock db error occurs while installing packages 
