@@ -9,6 +9,7 @@
 pgrep -x sxhkd >/dev/null || sxhkd &
 $HOME/.config/polybar/launch.sh
 $HOME/.config/picom/picom.conf
+$HOME/.config/keyindicator.sh
 
 bspc monitor -d 1 2 3 4 5 6 7
 bspc config border_width 0
