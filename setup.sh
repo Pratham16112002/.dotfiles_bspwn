@@ -7,7 +7,12 @@ git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
 
-paru -S google-chrome apple-fonts scrcpy ryzenadj-git teams mongodb-bin mongodb-tools-bin mongodb-compass postman-bin solaar visual-studio-code-bin betterlockscreen picom-ibhagwan-git flutter go maria-db luacheck styllua prettierd zathura-pdf-mupdf zathura wireless-tools alacritty bluez-utils brightnessctl bspwm cups cups-pdf dunst geary gnome-font-viewer ripgrep bat python-pip manjaro-refind-installer mpv neovim playerctl npm nodejs polybar power-profiles-daemon rclone sxhkd maim xclip baobab prettier gdb llvm clang libinput-gestures xdotool wireless-tools libreoffice-fresh unoconv polkit-gnome rofi xorg-xsetroot xsettingsd xorg-xset wmname maim picom-ibhagwan-git whatsdesk
+paru -S google-chrome apple-fonts scrcpy ryzenadj-git teams mongodb-bin mongodb-tools-bin mongodb-compass postman-bin solaar visual-studio-code-bin betterlockscreen picom-ibhagwan-git go maria-db luacheck styllua prettierd zathura-pdf-mupdf zathura wireless-tools alacritty bluez-utils brightnessctl bspwm cups cups-pdf dunst geary gnome-font-viewer ripgrep bat python-pip manjaro-refind-installer mpv neovim playerctl npm nodejs polybar power-profiles-daemon rclone sxhkd maim xclip baobab prettier gdb llvm clang libinput-gestures xdotool wireless-tools libreoffice-fresh unoconv polkit-gnome rofi xorg-xsetroot xsettingsd xorg-xset wmname maim picom-ibhagwan-git whatsdesk
+
+sudo snap install flutter --classic
+
+flutter sdk-path
+
 
 pip install subliminal
 node install -g nodemon
